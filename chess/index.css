@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#chess-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px;
+}
+
+.square {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.sqr1,
+.sqr3,
+.sqr5,
+.sqr7,
+.sqr10,
+.sqr12,
+.sqr14,
+.sqr16,
+.sqr17,
+.sqr19,
+.sqr21,
+.sqr23,
+.sqr26,
+.sqr28,
+.sqr30,
+.sqr32,
+.sqr33,
+.sqr35,
+.sqr37,
+.sqr39,
+.sqr42,
+.sqr44,
+.sqr46,
+.sqr48,
+.sqr49,
+.sqr51,
+.sqr53,
+.sqr55,
+.sqr58,
+.sqr60,
+.sqr62,
+.sqr64 {
+    background-color: rgb(65, 65, 65);
+}
+
+.sqr2,
+.sqr4,
+.sqr6,
+.sqr8,
+.sqr9,
+.sqr11,
+.sqr13,
+.sqr15,
+.sqr18,
+.sqr20,
+.sqr22,
+.sqr24,
+.sqr25,
+.sqr27,
+.sqr29,
+.sqr31,
+.sqr34,
+.sqr36,
+.sqr38,
+.sqr40,
+.sqr41,
+.sqr43,
+.sqr45,
+.sqr47,
+.sqr50,
+.sqr52,
+.sqr54,
+.sqr56,
+.sqr57,
+.sqr59,
+.sqr61,
+.sqr63 {
+    background-color: rgb(75, 43, 43);
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .square:hover {
+    background-color: rgb(29, 27, 27);
+} */
+
+.icon {
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
